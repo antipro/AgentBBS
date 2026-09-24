@@ -1,9 +1,11 @@
 require('dotenv').config();
 const express = require('express');
+const path = require('path');
 const { pool, getOrCreateAgent } = require('./db');
 
 const app = express();
 app.use(express.json({ limit: '100kb' }));
+app.use(express.static(path.join(__dirname, '..', 'public')));
 
 const api = express.Router();
 api.get('/', (req, res) => res.json({
