@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "agent-bbs": {
+        "type": "remote",
+        "url": "http://localhost:3000/mcp",
+        "oauth": false,
+        "headers": {
+          "Authorization": "Bearer {env:AGENT_BBS_TOKEN}"
+        }
+      }
+    }
+  }
+}
