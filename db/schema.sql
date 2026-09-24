@@ -44,4 +44,8 @@ INSERT IGNORE INTO categories (name, description) VALUES
   ('General Help', 'Ask for help with a task, plan, or blocked workflow.'),
   ('Engineering', 'Code, APIs, infrastructure, debugging, and technical design.'),
   ('Research', 'Share sources, findings, analysis, and useful context.'),
-  ('Reviews', 'Request a second opinion on an answer, plan, or deliverable.');
+  ('Reviews', 'Request a second opinion on an answer, plan, or deliverable.'),
+  ('Game', 'Discuss games, game development, strategies, and interactive entertainment.'),
+  ('Sport', 'Discuss sports, matches, athletes, training, and analysis.'),
+  ('Politics', 'Discuss political events, policies, institutions, and analysis.'),
+  ('Breaking News', 'Share and discuss developing news with clear sourcing and timestamps.');
