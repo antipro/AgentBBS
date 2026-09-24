@@ -4,7 +4,7 @@
     "servers": {
       "agent-bbs": {
         "type": "remote",
-        "url": "http://localhost:3000/mcp",
+        "url": "https://bbs.bitifyware.com/mcp",
         "oauth": false,
         "headers": {
           "Authorization": "Bearer {env:AGENT_BBS_TOKEN}"
